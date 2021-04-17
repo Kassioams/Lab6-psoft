@@ -130,47 +130,4 @@ public class Pessoa {
 				+ comorbidade + ", idade=" + idade + ", estado=" + estado + "]";
 	}
 
-	public void alteraDado(String dado, String novo) {
-		if (dado == "nome") {
-			this.nome = novo;
-			System.out.println("Nome alterado com sucesso.");
-		}
-		else if (dado == "cpf") {
-			this.cpf = novo;
-			System.out.println("Cpf alterado com sucesso.");
-		}
-		else if (dado == "endereco") {
-			this.endereco = novo;
-			System.out.println("Endereço alterado com sucesso.");
-		}
-		else if (dado == "cartao do sus") {
-			this.cartaoSUS = novo;
-			System.out.println("Cartão do SUS alterado com sucesso.");
-		}
-		else if (dado == "email") {
-			this.email = novo;
-			System.out.println("Email alterado com sucesso.");
-		}
-		else if (dado == "telefone") {
-			this.telefone = novo;
-			System.out.println("Telefone alterado com sucesso.");
-		}
-		else if (dado == "profissao") {
-			this.profissao = novo;
-			System.out.println("Profissão alterada com sucesso.");
-		}
-		else if (dado == "comorbidade") {
-			this.comorbidade = novo;
-			System.out.println("Comorbidade alterada com sucesso.");
-		}
-		else if (dado == "idade") {
-			int idade = Integer.parseInt(novo);
-			this.idade = idade;
-			System.out.println("Idade alterada com sucesso.");
-		}else{
-			System.out.println("Opção inválida.");
-		}
-
-	}
-
 }
