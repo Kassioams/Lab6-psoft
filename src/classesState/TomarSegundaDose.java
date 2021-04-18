@@ -9,4 +9,9 @@ public class TomarSegundaDose extends EstadoVacinacao {
 		pessoa.atualizaEstadoVacina(pessoa);
 
 	}
+
+	@Override
+	public String toString() {
+		return "A pessoa irá tomar a segunda dose.";
+	}
 }

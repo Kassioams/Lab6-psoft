@@ -26,4 +26,9 @@ public class NaoVacinada extends EstadoVacinacao {
 			System.out.println("Você não está habilitado(a) para tomar a primeira dose.");
 
 	}
+
+	@Override
+	public String toString() {
+		return "A pessoa ainda não foi vacinada.";
+	}
 }

@@ -115,8 +115,8 @@ public class Pessoa {
 		this.idade = idade;
 	}
 
-	public EstadoVacinacao getSituacao() {
-		return estado;
+	public String getSituacao() {
+		return estado.toString();
 	}
 
 	public void setEstadoVacinacao(EstadoVacinacao estado) {

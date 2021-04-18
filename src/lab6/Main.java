@@ -1,7 +1,6 @@
 package lab6;
 
 import java.util.HashMap;
-
 import java.util.Scanner;
 
 public class Main {
@@ -132,7 +131,8 @@ public class Main {
 				String cpf = sc.next();
 				if (mapaPessoas.containsKey(cpf)) {
 					System.out.println("A situação da vacinação é: \n");
-					mapaPessoas.get(cpf).atualizaEstadoVacina(mapaPessoas.get(cpf));
+					System.out.println(mapaPessoas.get(cpf).getSituacao());
+
 				} else {
 					System.out.println("Cadastro não encontrado.");
 				}

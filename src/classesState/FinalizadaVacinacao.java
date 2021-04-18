@@ -6,6 +6,10 @@ public class FinalizadaVacinacao extends EstadoVacinacao {
 
 	@Override
 	public void alteraEstado(Pessoa pessoa) {
-		System.out.println("Vacina finalizada. :D");
+	}
+
+	@Override
+	public String toString() {
+		return "Vacina finalizada. :D";
 	}
 }
