@@ -64,56 +64,56 @@ public class Main {
 					System.out.println("A situação da vacinação é:");
 					pessoa.atualizaEstadoVacina(pessoa);
 					break;
-					
+
 				case "cpf":
 					pessoa.setCpf(novo);
 					System.out.println("Cpf alterado com sucesso. \n");
 					System.out.println("A situação da vacinação é:");
 					pessoa.atualizaEstadoVacina(pessoa);
 					break;
-					
+
 				case "endereco":
 					pessoa.setEndereco(novo);
 					System.out.println("Endereço alterado com sucesso. \n");
 					System.out.println("A situação da vacinação é:");
 					pessoa.atualizaEstadoVacina(pessoa);
 					break;
-					
+
 				case "cartao do sus":
 					pessoa.setCartaoSUS(novo);
 					System.out.println("Cartão do SUS alterado com sucesso. \n");
 					System.out.println("A situação da vacinação é:");
 					pessoa.atualizaEstadoVacina(pessoa);
 					break;
-					
+
 				case "email":
 					pessoa.setEmail(novo);
 					System.out.println("Email alterado com sucesso.\n");
 					System.out.println("A situação da vacinação é:");
 					pessoa.atualizaEstadoVacina(pessoa);
 					break;
-					
+
 				case "telefone":
 					pessoa.setTelefone(novo);
 					System.out.println("Telefone alterado com sucesso. \n");
 					System.out.println("A situação da vacinação é:");
 					pessoa.atualizaEstadoVacina(pessoa);
 					break;
-					
+
 				case "profissao":
 					pessoa.setProfissao(novo);
 					System.out.println("Profissão alterada com sucesso. \n");
 					System.out.println("A situação da vacinação é:");
 					pessoa.atualizaEstadoVacina(pessoa);
 					break;
-					
+
 				case "comorbidade":
 					pessoa.setComorbidade(novo);
 					System.out.println("Comorbidade alterada com sucesso. \n");
 					System.out.println("A situação da vacinação é:");
 					pessoa.atualizaEstadoVacina(pessoa);
 					break;
-					
+
 				case "idade":
 					int idade = Integer.parseInt(novo);
 					pessoa.setIdade(idade);
@@ -121,7 +121,7 @@ public class Main {
 					System.out.println("A situação da vacinação é:");
 					pessoa.atualizaEstadoVacina(pessoa);
 					break;
-					
+
 				default:
 					System.out.println("Opção indisponível.");
 					break;
